@@ -4,6 +4,9 @@ Tic-Tac-Toe game
 <p align="center">
   <img width="500" height="600" src="tic-tac-toe.jpg"
 </p>
+<p align="center">
+  <img width="500" height="600" src="tic-tac-toe1.jpg"
+</p>
 
 ## <ins>What it does
 
