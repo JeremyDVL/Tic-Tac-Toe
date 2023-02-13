@@ -2,22 +2,22 @@
 Tic-Tac-Toe game
 
 <p align="center">
-  <img width="500" height="450" src="Bored_app.jpg"
+  <img width="500" height="600" src="tic-tac-toe.jpg"
 </p>
 
 ## <ins>What it does
 
-The Bored List gives you a list of things to do when you are bored.  It is built with REACT and the data is pulled from the bored api http://www.boredapi.com/api/activity using fetch.
+Tic-Tac-Toe allows two players to place either an X or an O in one of 9 squares on each turn.  3 in a row in any direction wins.  The game has a reset game button that allows the players to reset the game at any time.  If there is a winner an alert with an OK button will declare the winner or a tie.  Once OK is press on the alert the game resets.
 
 ## <ins>How to Run
 
 Clone Repo into editor => Open terminal in VS Code or other editor => run "npm start" for live server
 
-  Once installed it will start you with one activity you can do.  Click the "Load Another" button to load another activity.  Click the "Reset" button to reset the list.
+  Once installed you begin the game by clicking on any square.  By default it starts with "O".  Player two selects a square for "X".  3 in a row in any direction wins.  Hit reset button to reset game in the middle of the game.  Once winner is declared by alert message the game resets after OK is clicked.  The Header keeps track of who's turn it is and a square when selected is highlighted pink.
 
 ## <ins>Future improvements
 
-I am pretty happy with this one although some improvements could be to add a number input and have the app generate the list based on the number assigned.  You could also filter based off interest.  I would like to know how to filter out the duplicates but have not figured that out yet.
+I would like to add some animation to this.  Have the winner declared as a seperate div that apears once there is a winner instead of an alert.  Also have the X and O text different colors of the players choice.  Having the functionality to play single player would be nice too.
 
 ## <ins>License
 
